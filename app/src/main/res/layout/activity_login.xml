@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.bluejack19_1.eassum.LoginActivity"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:lineSpacingExtra="18sp"
+        android:text="@string/appTitle"
+        android:textAlignment="center"
+        android:textColor="#BAFFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appTitleExtended"
+        android:textAlignment="center"
+        android:textColor="#BAFFFFFF"
+        android:textStyle="italic"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="103dp" />
+
+    <EditText
+        android:id="@+id/emailTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:textColor="#BAFFFFFF"
+        android:textColorHint="#BAFFFFFF"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+
+    <EditText
+        android:id="@+id/passTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:textColor="#BAFFFFFF"
+        android:textColorHint="#BAFFFFFF"
+        android:inputType="textPassword" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#BAFFFFFF"
+        android:textColorHint="#BAFFFFFF"
+        android:layout_gravity="end"
+        android:text="Remember Me" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/regisBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Register" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/googleButton"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/facebookButton"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">EasSum</string>
+
+    <string name="home">Home</string>
+    <string name="course">Course</string>
+    <string name="feedback">Feedback</string>
+    <string name="calendar">Calendar</string>
+    <string name="user">User</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="appTitle">EasSum</string>
+    <string name="appTitleExtended">Easy Summary for easier Binusian Life</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="title_activity_register">Register</string>
+    <string name="username">Username</string>
+    <string name="semester">Semester</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name = "fcm_server_key">AIzaSyC9dQFS9Hf4fSlOes7wihtjqd5F2FlXNVY</string>
+
+
+    <string name="facebook_app_id">667981930394862</string>
+    <string name="fb_login_protocol_scheme">fb667981930394862</string>
+
+    <string name="aboutUs">About us</string>
+    <string name="aboutUsDesc">     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+
+</resources>

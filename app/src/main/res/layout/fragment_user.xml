@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/re1"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="10dp"
+    tools:context="edu.bluejack19_1.eassum.Fragment.UserFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="User\'s Profile"
+        android:textColor="@color/backgroundColor"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="30dp"
+        android:backgroundTint="@color/backgroundColor"
+        android:layout_height="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="80dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/ic_exit_to_app_black_24dp"
+        android:layout_toRightOf="@id/title"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:id="@+id/nama"
+        android:layout_below="@+id/title"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/namaTxt"
+        android:textSize="15sp"
+        android:layout_below="@+id/nama"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/emailUser"
+        android:layout_below="@+id/namaTxt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailUserTxt"
+        android:textSize="15sp"
+        android:layout_below="@+id/emailUser"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Semester"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/semesterUser"
+        android:layout_below="@+id/emailUserTxt"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/semesterUserTxt"
+        android:textSize="15sp"
+        android:layout_below="@+id/semesterUser"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GPA"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/GPA"
+        android:layout_below="@+id/semesterUserTxt"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/GPATxt"
+        android:textSize="15sp"
+        android:layout_below="@+id/GPA"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"/>
+
+
+    <com.anychart.AnyChartView
+        android:id="@+id/any_chart_view"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_below="@id/GPA"/>
+
+
+    <GridLayout
+        android:id="@+id/thisone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/any_chart_view"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/button_update_user"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="80dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/button_course"
+            android:text="Update Profile"
+            android:textColor="#FFF"
+            android:layout_below="@id/GPATxt"/>
+
+
+        <Button
+            android:id="@+id/button_user_list_course"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="36dp"
+            android:background="@drawable/button_course"
+            android:text="List Course"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_below="@id/button_update_user"/>
+
+    </GridLayout>
+
+
+
+
+</RelativeLayout>
+
+</ScrollView>

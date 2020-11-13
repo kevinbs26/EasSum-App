@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "733248157397",
+    "firebase_url": "https://tpa-mobile-4e747.firebaseio.com",
+    "project_id": "tpa-mobile-4e747",
+    "storage_bucket": "tpa-mobile-4e747.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733248157397:android:3d474988c8ecd21198545c",
+        "android_client_info": {
+          "package_name": "com.example.tpa_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733248157397-fp0eq8h98qgqrf98943cs2nc0mpk2lg5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tpa_mobile",
+            "certificate_hash": "0bf45bde1bbb664c4d5f23d3ac54cb7c77787a69"
+          }
+        },
+        {
+          "client_id": "733248157397-50pmd5shjknsb7ls99fgdhjljh0u1kuo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tpa_mobile",
+            "certificate_hash": "9689e78501a4925d35b1ad2f0763bd758ecc588e"
+          }
+        },
+        {
+          "client_id": "733248157397-pabqk9310lmord5mg57vsg4loeid6ior.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT93k4hrtpysdCQlWCfzDqRHAG2d6334k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733248157397-pabqk9310lmord5mg57vsg4loeid6ior.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733248157397:android:c633d7b542ea247098545c",
+        "android_client_info": {
+          "package_name": "com.example.tpamobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733248157397-4mjj19hg97g8l138flp25kkmetsqe0gb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tpamobile",
+            "certificate_hash": "0bf45bde1bbb664c4d5f23d3ac54cb7c77787a69"
+          }
+        },
+        {
+          "client_id": "733248157397-pabqk9310lmord5mg57vsg4loeid6ior.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT93k4hrtpysdCQlWCfzDqRHAG2d6334k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733248157397-pabqk9310lmord5mg57vsg4loeid6ior.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733248157397:android:1c23840f8136ea9298545c",
+        "android_client_info": {
+          "package_name": "edu.bluejack19_1.tpa_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733248157397-pabqk9310lmord5mg57vsg4loeid6ior.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT93k4hrtpysdCQlWCfzDqRHAG2d6334k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733248157397-pabqk9310lmord5mg57vsg4loeid6ior.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

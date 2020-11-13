@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="edu.bluejack19_1.eassum.Fragment.CalendarFragment">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/backgroundColor"
+        android:text="See Events Here!"
+        android:textAlignment="center"
+        android:textSize="26dp"
+        android:layout_marginTop="20dp" />
+
+    <com.shrikanthravi.collapsiblecalendarview.widget.CollapsibleCalendar
+        android:id="@+id/calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="2dp"
+        app:buttonLeft_drawableTintColor="@android:color/white"
+        app:buttonRight_drawableTintColor="@android:color/white"
+        app:expandIconColor="@android:color/white"
+        app:primaryColor="@color/backgroundColor"
+        app:selectedItem_background="@drawable/circle_white_solid_background"
+        app:selectedItem_textColor="@android:color/holo_red_dark"
+        app:textColor="@android:color/white"
+        app:todayItem_background="@drawable/circle_white_stroke_background"
+
+        app:todayItem_textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/calendarView"
+        android:textSize="32dp"
+        android:textAlignment="center"
+        android:fontFamily="casual"
+        android:textColor="@color/backgroundColor"
+        android:id="@+id/text"
+        android:layout_marginTop="40dp"
+        android:layout_margin="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"/>
+
+</RelativeLayout>

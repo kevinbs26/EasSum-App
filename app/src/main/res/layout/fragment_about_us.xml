@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.bluejack19_1.eassum.fragmentHome.AboutUs"
+    android:layout_marginBottom="30dp"
+    android:paddingBottom="30dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/images"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutUs"
+        android:id="@+id/title"
+        android:textAlignment="center"
+        android:layout_below="@id/logo"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/desc"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="100dp"
+        android:text="@string/aboutUsDesc"/>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/desc"
+        android:layout_marginBottom="50dp">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/left"
+            android:src="@drawable/jk"
+            android:layout_toRightOf="@+id/right"/>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/right"
+            android:src="@drawable/vi"/>
+    </RelativeLayout>
+
+</RelativeLayout>
+
+</ScrollView>
